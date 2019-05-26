@@ -100,5 +100,11 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Jekyll build
+_site/
+
 # mypy
 .mypy_cache/
+
+# Mac OS X
+.DS_Store

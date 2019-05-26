@@ -1,0 +1,3 @@
+{% include_relative assets/bootstrap/css/bootstrap.min.css %}
+{% include_relative assets/css/main.css %}
+{{ content }}

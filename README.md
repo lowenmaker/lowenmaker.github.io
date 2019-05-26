@@ -1,2 +1,3 @@
-# lowenmaker.github.io
-Website for LowenMaker
+# Lowen Maker
+
+Built with Jekyll.

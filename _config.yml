@@ -1,0 +1,84 @@
+# Website for LowenMaker, using Jekyll
+#
+# This config file contains high-level variables affecting the whole site. More
+# settings are included in the _data folder.
+
+# Variables are accessed in templates via {{ site.title }}, {{ site.email }}, etc.
+# You can create any custom variable you would like.
+
+# Technical
+source: .
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://lowenmaker.com
+
+# Description
+title: LowenMaker
+email: contact@lowenmaker.com
+keywords: "Cyanotype, Art, Cornwall, Cornish, LowenMaker, Lowen, Maker, Sea, Coast"
+meta_author: Pollard Carol
+description: Cyanotype artworks created on the Cornish coastline.
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /project/:slug
+  pages:
+    output: true
+    permalink: /:name
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Social networks
+social:
+  - title: twitter
+    username: lowenmaker
+    url: http://twitter.com/lowenmaker
+  - title: github
+    username: lowenmaker
+    url: http://github.com/lowenmaker
+  - title: instagram
+    username: lowenmaker
+    url: https://instagram.com/
+
+# Google webmaster tools
+google_verify:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+
+# Footer settings
+footer:
+  copyright: Lowen Maker, Downderry, Cornwall, UK
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,31 @@
+---
+layout: page
+---
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+    {% include header.html %}
+
+    <section>
+      <div class="container narrow">
+        <div class="jumbotron">
+            <h1>{{ project.title }}</h1>
+            <p class="lead text-muted">{{ project.subtitle }}</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container narrow">
+        {{ project.content }}
+
+        {{ content }}
+      </div>
+    </section>
+
+
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
