@@ -1,0 +1,17 @@
+# Colors (hex, without a hash)
+color:
+  primary: 0099cc
+  secondary: 2c3e50
+  secondary-dark: 233140
+  muted: 777
+
+# Fonts
+font:
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
+  title_font: '"Muli", sans-serif'
+  title_color: 2A2F36
+  body_font: '"Muli", sans-serif'
+  body_color: 6C7A89
+  social_color: 0099cc
+  regular_weight: 400
+  bold_weight: 600
