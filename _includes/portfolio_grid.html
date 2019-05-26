@@ -5,19 +5,17 @@
     {% assign loopindex = 0 %}
     {% for project in site.projects reversed %}
       {% assign loopindex = loopindex | plus: 1 %}
-      {% assign rowfinder = loopindex | modulo: 2 %}
+      {% assign rowfinder = loopindex | modulo: 3 %}
       {% if rowfinder == 1 %}
 
       <!-- start the row -->
       <div class="row portfolio-row">
 
         <!-- card -->
-        <div class="col-md-6 portfolio-item">
+        <div class="portfolio-column portfolio-item">
           <a href="{{ project.url }}" class="portfolio-link">
             <div class="caption">
-              <div class="caption-content">
                 <p>{{ project.title }}</p>
-              </div>
             </div>
           <img src="images/portfolio/{{ project.image }}" class="portfolio-item img-responsive overlay" alt="{{ project.alt }}">
           </a>
@@ -26,12 +24,10 @@
       {% elsif rowfinder == 0 %}
 
         <!-- card -->
-        <div class="col-md-6 portfolio-item">
+        <div class="portfolio-column portfolio-item">
           <a href="{{ project.url }}" class="portfolio-link">
             <div class="caption">
-              <div class="caption-content">
                 <p>{{ project.title }}</p>
-              </div>
             </div>
           <img src="images/portfolio/{{ project.image }}" class="portfolio-item img-responsive" alt="{{ project.alt }}">
           </a>
@@ -43,14 +39,12 @@
       {% else %}
 
         <!-- card -->
-        <div class="col-md-6 portfolio-item">
+        <div class="portfolio-column portfolio-item">
           <a href="{{ project.url }}" class="portfolio-link">
             <div class="caption">
-              <div class="caption-content">
                 <p>{{ project.title }}</p>
-              </div>
             </div>
-          <img src="images/portfolio/{{ project.image }}" class="portfolio-item modal-body img-responsive" alt="{{ project.alt }}">
+          <img src="images/portfolio/{{ project.image }}" class="portfolio-item img-responsive" alt="{{ project.alt }}">
           </a>
         </div>
 
