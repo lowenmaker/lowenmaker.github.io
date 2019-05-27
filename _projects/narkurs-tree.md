@@ -6,3 +6,5 @@ subtitle: Lone tree at Narkurs
 image: tree_narkurs.jpg
 alt: Lone tree at Narkurs
 ---
+
+![](/images/portfolio/tree_narkurs.jpg)

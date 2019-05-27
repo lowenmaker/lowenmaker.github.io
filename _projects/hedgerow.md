@@ -6,3 +6,5 @@ subtitle: Hedgerow
 image: hedgerow.jpg
 alt: Hedgerow
 ---
+
+![](/images/portfolio/hedgerow.jpg)
