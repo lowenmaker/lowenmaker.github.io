@@ -26,7 +26,6 @@ h6 {
 }
 
 .narrow {
-    /*max-width: 65%;*/
     margin: 0 auto;
     padding: 0 30px;
     max-width: 800px;
@@ -35,6 +34,11 @@ h6 {
 .inner {
     max-width: 80%;
 }
+
+.inner img {
+    max-width: 100%;
+}
+
 
 /*
  * Header
