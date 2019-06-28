@@ -48,15 +48,18 @@ defaults:
 
 # Social networks
 social:
-  - title: twitter
+  - title: etsy
     username: lowenmaker
-    url: http://twitter.com/lowenmaker
-  - title: github
-    username: lowenmaker
-    url: http://github.com/lowenmaker
+    url: https://www.etsy.com/shop/lowenmaker
   - title: instagram
     username: lowenmaker
-    url: https://instagram.com/
+    url: https://instagram.com/carolrosiepollard 
+  # - title: twitter
+  #   username: lowenmaker
+  #   url: http://twitter.com/lowenmaker
+  # - title: github
+  #   username: lowenmaker
+  #   url: http://github.com/lowenmaker
 
 # Google webmaster tools
 google_verify:
