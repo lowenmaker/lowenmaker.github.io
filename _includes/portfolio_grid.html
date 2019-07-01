@@ -5,7 +5,7 @@
     {% assign loopindex = 0 %}
     {% for project in site.projects reversed %}
       {% assign loopindex = loopindex | plus: 1 %}
-      {% assign rowfinder = loopindex | modulo: 3 %}
+      {% assign rowfinder = loopindex | modulo: 2 %}
       {% if rowfinder == 1 %}
 
       <!-- start the row -->
